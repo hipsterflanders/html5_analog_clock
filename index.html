@@ -66,7 +66,7 @@
                         
                         // get adjusted time values
                         var today=new Date();
-                        var h=today.getHours()-6.8;
+                        var h=today.getHours()%12-6.8;
                         var m=today.getMinutes()+2;
                         //var h=today.getSeconds();
                         arrow1_angle = h*Math.PI/12, 
